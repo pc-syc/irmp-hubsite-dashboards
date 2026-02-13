@@ -19,8 +19,8 @@ body {
 
 .circle-menu {
   position: relative;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
   margin-bottom: 60px;
   flex-shrink: 0;
@@ -74,8 +74,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background-color: #55b7d9;
   border: 1px solid black;
   border-radius: 50%;
@@ -98,8 +98,8 @@ body {
 }
 
 .category-label.left {
-  top: 120px;
-  left: -27px;
+  top: 90px;
+  left: -20px;
   transform: rotate(-55deg);
   transform-origin: center;
 }
@@ -109,8 +109,8 @@ body {
 }
 
 .category-label.right {
-  top: 120px;
-  left: 173px;
+  top: 90px;
+  left: 130px;
   transform: rotate(55deg);
   transform-origin: center;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .category-label.bottom {
-  top: 307px;
+  top: 230px;
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
