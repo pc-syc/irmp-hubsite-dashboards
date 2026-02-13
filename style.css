@@ -14,14 +14,16 @@ body {
   align-items: center;
   width: 100%;
   max-width: 1400px;
+  padding-top: 50px;
 }
 
 .circle-menu {
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
   border-radius: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  flex-shrink: 0;
 }
 
 .menu-item {
@@ -72,8 +74,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-color: #55b7d9;
   border: 1px solid black;
   border-radius: 50%;
@@ -96,8 +98,8 @@ body {
 }
 
 .category-label.left {
-  top: 90px;
-  left: -20px;
+  top: 120px;
+  left: -27px;
   transform: rotate(-55deg);
   transform-origin: center;
 }
@@ -107,8 +109,8 @@ body {
 }
 
 .category-label.right {
-  top: 90px;
-  left: 130px;
+  top: 120px;
+  left: 173px;
   transform: rotate(55deg);
   transform-origin: center;
 }
@@ -118,7 +120,7 @@ body {
 }
 
 .category-label.bottom {
-  top: 230px;
+  top: 307px;
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
@@ -133,8 +135,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 650px;
-  height: 650px;
+  width: 867px;
+  height: 867px;
   border: 10px solid #ccc;
   border-radius: 50%;
   pointer-events: none;
@@ -145,7 +147,7 @@ body {
 .divider {
   position: absolute;
   width: 10px;
-  height: 330px;
+  height: 440px;
   background-color: #ccc;
   top: 50%;
   left: 50%;
@@ -178,20 +180,31 @@ body {
 .text-box {
   flex: 1;
   min-width: 0;
+  font-size: 16px;
 }
 
 .text-box h5 {
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.text-box p {
+  font-size: 16px;
+}
+
+.text-box p:empty,
+.text-box p br:only-child {
+  display: none;
 }
 
 .text-box a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #0066cc;
 }
 
 .text-box a:hover {
-  text-decoration: underline;
+  color: #004d99;
 }
 
 /* Responsive design */

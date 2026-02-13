@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const circleMenu = document.getElementById("circleMenu");
   const centerX = circleMenu.offsetWidth / 2;
   const centerY = circleMenu.offsetHeight / 2;
-  const radius = 325;
+  const radius = 433;
 
   items.forEach(({ angleDeg, label, link }) => {
     const angleRad = (angleDeg - 90) * (Math.PI / 180); // -90 to start from top
