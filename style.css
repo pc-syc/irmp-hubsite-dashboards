@@ -22,7 +22,7 @@ body {
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  margin-bottom: 60px;
+  margin: 120px;
   flex-shrink: 0;
 }
 
