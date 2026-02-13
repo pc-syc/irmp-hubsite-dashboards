@@ -6,7 +6,25 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Popup Modal -->
+  <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <h2>Restricted Access Notice</h2>
+      <p>
+        The IRMP Knowledge Hub and Dashboards contain protected and confidential information, including Indigenous Knowledge.
+        Access is restricted to IRMP Task Team members only.
+        Content must not be shared, distributed, or reproduced beyond the Task Team without prior authorization.
+      </p>
+      <p>
+        If partners require briefing materials for their organizations, please contact
+        <a href="mailto:victoria.fleming-chartier@pc.gc.ca">victoria.fleming-chartier@pc.gc.ca</a>.
+      </p>
+      <button class="close-btn" onclick="closeModal()">Acknowledge</button>
+    </div>
+  </div>
+
   <div class="main-container">
+    <h1 class="page-title">IRMP Indicators</h1>
     <div class="circle-menu" id="circleMenu">
       <div class="inner-circle">Way of Life</div>
         <div class="middle-circle">
@@ -59,6 +77,12 @@
       </div>
     </div>
   </div>
+  
+  <script>
+    function closeModal() {
+      document.getElementById("popupModal").style.display = "none";
+    }
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
