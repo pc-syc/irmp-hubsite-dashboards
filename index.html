@@ -79,6 +79,11 @@
   </div>
   
   <script>
+    // Show modal on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      document.getElementById("popupModal").style.display = "flex";
+    });
+    
     function closeModal() {
       document.getElementById("popupModal").style.display = "none";
     }
