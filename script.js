@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   const items = [
     { angleDeg: 12, label: "Bison Counts", link: "https://apca.maps.arcgis.com/apps/dashboards/f0e11127de404d98a384d398c89bd9cb" },
-    { angleDeg: 33.5, label: "Muskrat House Counts", link: "https://apca.maps.arcgis.com/apps/dashboards/8df7cb904e9447d48b61c6c91769d6b2" },
+    { angleDeg: 33.5, label: "Muskrat House Counts", link: "https://apca.maps.arcgis.com/apps/dashboards/d9cc0665bde8454d83af0cc2b2028985" },
     { angleDeg: 55, label: "Breeding Waterfowl Counts", link: "https://www.arcgis.com/apps/dashboards/c3dde2e77d0a402fa28407f218530275" },
     { angleDeg: 76.7, label: "Plant Growing Season", link: "https://apca.maps.arcgis.com/apps/dashboards/f3e230c889e146e895542932c5153b99" },
     { angleDeg: 98, label: "Shrub Cover", link: "https://www.arcgis.com/apps/dashboards/c4aa379ef7b64384abf7b335cda6c89b" },
