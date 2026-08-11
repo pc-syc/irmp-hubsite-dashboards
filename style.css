@@ -243,11 +243,16 @@ body {
 .text-box h5 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-family: 'Avenir Next', sans-serif;
+  color: rgb(76, 76, 76);
+  font-size: 16px; /* reduce from 20px */
+  text-align: left;
 }
 
 .text-box p {
   font-size: 16px;
+  text-align:left;
+  margin-bottom:15px;
 }
 
 .text-box p:empty,
@@ -256,8 +261,8 @@ body {
 }
 
 .text-box img {
-  max-width: 200px !important;
-  width: 100% !important;
+  max-width: 200px;
+  width: 100%;
   height: auto;
 }
 
