@@ -155,36 +155,36 @@ body {
 }
 
 .category-label.left {
-  top: 90px;
-  left: -20px;
-  transform: rotate(-55deg);
+  top: 60px;
+  left: -25px;
+  transform: rotate(-45deg);
   transform-origin: center;
 }
 
 .category-label.left:hover {
-  transform: rotate(-55deg) scale(1.3);
+  transform: rotate(-45deg) scale(1.2);
 }
 
 .category-label.right {
-  top: 90px;
-  left: 130px;
-  transform: rotate(55deg);
+  top: 100px;
+  left: 135px;
+  transform: rotate(65deg);
   transform-origin: center;
 }
 
 .category-label.right:hover {
-  transform: rotate(55deg) scale(1.3);
+  transform: rotate(65deg) scale(1.2);
 }
 
 .category-label.bottom {
-  top: 230px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 210px;
+  left: 20px;
+  transform: rotate(25deg);
   transform-origin: center;
 }
 
 .category-label.bottom:hover {
-  transform: translate(-50%, -50%) scale(1.3);
+  transform: rotate(25deg) scale(1.2);
 }
 
 /* Outer grey ribbon (circular border) */
@@ -217,11 +217,11 @@ body {
 }
 
 .divider2 {
-  transform: translate(-50%) rotate(70deg);
+  transform: translate(-50%) rotate(90deg);
 }
 
 .divider3 {
-  transform: translate(-50%) rotate(290deg);
+  transform: translate(-50%) rotate(315deg);
 }
 
 /* Text boxes container */
