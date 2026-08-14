@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
     { angleDeg: 281.5, label: "Ice & Winter Travel", link: "https://www.arcgis.com/apps/dashboards/c6399a3e216047c9a46adb0e95d433c3" },
     { angleDeg: 304, label: "Lake Level", link: "https://apca.maps.arcgis.com/apps/dashboards/33d173483dba4f6e9d60bd2b65c498c8" },
     { angleDeg: 326.5, label: "River Flow", link: "https://www.arcgis.com/apps/dashboards/4bc3bcde4d5146d6882317c17bf6992b" },
-    { angleDeg: 348.5, label: "Navigation", link: "https://www.arcgis.com/apps/dashboards/71317a760f0b4bf5a8962feb150a0547" },
+    { angleDeg: 348.5, label: "Navigation", link: "https://www.arcgis.com/apps/dashboards/79ad16ed441a483d9013e157d2c106e7" },
   ];
 
   const circleMenu = document.getElementById("circleMenu");
