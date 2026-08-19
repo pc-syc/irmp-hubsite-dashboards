@@ -314,14 +314,13 @@ body {
 
 /* New: Bottom Assessment Summary text block */
 .assessment-summary {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
   text-align: center;
   width: 100%;
 }
 
 .assessment-summary a {
-  font-size: 18px;
   font-weight: bold;
   color: #1b4f72;
   text-decoration: underline;
@@ -329,6 +328,14 @@ body {
 
 .assessment-summary a:hover {
   color: #154360;
+}
+
+.section-divider {
+  width: 100%;
+  max-width: 1000px;
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
 }
 
 /* Responsive design */
